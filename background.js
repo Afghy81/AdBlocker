@@ -98,9 +98,10 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
 // Adds more aggressive detection for popup ads and hidden redirects (like those on lk21)
 
 const blockedPatterns = [
-  '*://*judi*/*', '*://*slot*/*', '*://*casino*/*', '*://*bet*/*',
+  '*://*judi*/*', '*://*slot*/*', '*://*casino*/*', '*://*bet*/*', '*://*meriah4d*/*', '*://*livejasmin*/*',
   '*://*porn*/*', '*://*ads*/*', '*://*advert*/*', '*://*banner*/*', '*://*pop*/*',
-  '*://*attirecideryeah.com*', '*://*usheebainaut.com*', '*://*alibaba.com*', '*://*dewazeus33*'
+  '*://*attirecideryeah.com*', '*://*usheebainaut.com*', '*://*alibaba.com*', '*://*dewazeus33*',
+  '*://*qq828.com*', '*://*x7i0.com*', '*://*cm65.com*'
 ];
 
 chrome.tabs.onCreated.addListener((tab) => {
